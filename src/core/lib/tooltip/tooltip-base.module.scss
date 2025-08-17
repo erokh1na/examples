@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+
+  display: inline-block;
+}
+
+.anchor {
+  width: fit-content;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 2;
+
+  width: max-content;
+  max-width: 500px;
+
+  padding: 8px 16px;
+
+  background-color: white;
+  border-radius: var(--app-border-radius);
+  box-shadow: 0 0 16px 4px var(--app-border-color);
+
+  pointer-events: none;
+}
