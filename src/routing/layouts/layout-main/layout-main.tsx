@@ -13,7 +13,51 @@ export const LayoutMain = () => {
       label: <Link to="/">Home</Link>,
     },
     {
-      key: "tooltip",
+      key: "/accordion",
+      label: <Link to="/accordion">Accordion</Link>,
+    },
+    {
+      key: "/dir-files",
+      label: <Link to="/dir-files">Directory & files</Link>,
+    },
+    {
+      key: "/drag-n-drop",
+      label: <Link to="/drag-n-drop">Drag & drop</Link>,
+    },
+    {
+      key: "/infinity-scroll",
+      label: <Link to="/infinity-scroll">Infinity scroll</Link>,
+    },
+    {
+      key: "/lazy-pic",
+      label: <Link to="/lazy-pic">Lazy pictures</Link>,
+    },
+    {
+      key: "/modal",
+      label: <Link to="/modal">Modal</Link>,
+    },
+    {
+      key: "/pagination",
+      label: <Link to="/pagination">Pagination</Link>,
+    },
+    {
+      key: "/slider",
+      label: <Link to="/slider">Slider</Link>,
+    },
+    {
+      key: "/tabs",
+      label: <Link to="/tabs">Tabs</Link>,
+    },
+    {
+      key: "/tic-tac-toe",
+      label: <Link to="/tic-tac-toe">Tic-tac-toe</Link>,
+    },
+    {
+      key: "/todo",
+      label: <Link to="/todo">Todo</Link>,
+    },
+    {
+      key: "/tooltip",
       label: <Link to="/tooltip">Tooltip</Link>,
     },
   ]
@@ -21,7 +65,7 @@ export const LayoutMain = () => {
   return (
     <Layout className={styles.layout}>
       <Sider className={styles.sider}>
-        <Menu className={styles.menu} defaultSelectedKeys={[location.pathname]} mode="inline" items={items} />
+        <Menu className={styles.menu} selectedKeys={[location.pathname]} mode="inline" items={items} />
       </Sider>
       <Layout>
         <Content className={styles.content}>
