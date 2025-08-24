@@ -45,3 +45,13 @@ h1,
 p {
   margin-bottom: 0;
 }
+
+button {
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

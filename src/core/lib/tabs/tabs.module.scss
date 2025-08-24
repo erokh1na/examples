@@ -1,0 +1,24 @@
+.tabs {
+  width: 100%;
+
+  border: 1px solid lightgray;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  padding: 4px 8px;
+}
+
+.button-active {
+  background-color: lightgray;
+}
+
+.content {
+  padding: 4px 8px;
+}
