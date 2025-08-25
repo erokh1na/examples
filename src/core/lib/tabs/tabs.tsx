@@ -17,13 +17,13 @@ const useTabs = (items: TabsItems) => {
   }
 }
 
-export const Tabs = ({ items }: TabsProps) => {
-  const tabs = useTabs(items)
+export const Tabs = (props: TabsProps) => {
+  const tabs = useTabs(props.items)
 
   return (
     <div className={styles.tabs}>
       <div className={styles.buttons}>
-        {items.map((item) => (
+        {props.items.map((item) => (
           <button
             className={clsx(styles.button, { [styles["button-active"]]: tabs.active === item.key })}
             key={item.key}
