@@ -1,6 +1,6 @@
 export * from "./page-accordion"
 export * from "./page-dir-files"
-export * from "./page-drag-n-drop"
+export * from "./page-drag"
 export * from "./page-home"
 export * from "./page-infinity-scroll"
 export * from "./page-lazy-pic"

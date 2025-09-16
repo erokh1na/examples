@@ -3,7 +3,7 @@ import { LayoutMain } from "./layouts"
 import {
   PageAccordion,
   PageDirFiles,
-  PageDragNDrop,
+  PageDrag,
   PageHome,
   PageInfinityScroll,
   PageLazyPic,
@@ -23,7 +23,7 @@ export const Routing = () => {
         <Route path="/" index element={<PageHome />} />
         <Route path="accordion" element={<PageAccordion />} />
         <Route path="dir-files" element={<PageDirFiles />} />
-        <Route path="drag-n-drop" element={<PageDragNDrop />} />
+        <Route path="drag" element={<PageDrag />} />
         <Route path="infinity-scroll" element={<PageInfinityScroll />} />
         <Route path="lazy-pic" element={<PageLazyPic />} />
         <Route path="modal" element={<PageModal />} />

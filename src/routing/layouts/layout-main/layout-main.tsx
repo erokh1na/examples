@@ -21,8 +21,8 @@ export const LayoutMain = () => {
       label: <Link to="/dir-files">Directory & files</Link>,
     },
     {
-      key: "/drag-n-drop",
-      label: <Link to="/drag-n-drop">Drag & drop</Link>,
+      key: "/drag",
+      label: <Link to="/drag">Drag</Link>,
     },
     {
       key: "/infinity-scroll",
