@@ -29,8 +29,8 @@ export const LayoutMain = () => {
       label: <Link to="/infinity-scroll">Infinity scroll</Link>,
     },
     {
-      key: "/lazy-pic",
-      label: <Link to="/lazy-pic">Lazy pictures</Link>,
+      key: "/lazy-image",
+      label: <Link to="/lazy-image">Lazy pictures</Link>,
     },
     {
       key: "/modal",

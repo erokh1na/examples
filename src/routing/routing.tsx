@@ -6,7 +6,7 @@ import {
   PageDrag,
   PageHome,
   PageInfinityScroll,
-  PageLazyPic,
+  PageLazyImage,
   PageModal,
   PagePagination,
   PageSlider,
@@ -25,7 +25,7 @@ export const Routing = () => {
         <Route path="dir-files" element={<PageDirFiles />} />
         <Route path="drag" element={<PageDrag />} />
         <Route path="infinity-scroll" element={<PageInfinityScroll />} />
-        <Route path="lazy-pic" element={<PageLazyPic />} />
+        <Route path="lazy-image" element={<PageLazyImage />} />
         <Route path="modal" element={<PageModal />} />
         <Route path="pagination" element={<PagePagination />} />
         <Route path="slider" element={<PageSlider />} />
