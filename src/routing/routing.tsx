@@ -15,6 +15,7 @@ import {
   PageTicTacToe,
   PageTodo,
   PageTooltip,
+  PageTooltipAnchorPosition,
 } from "./pages"
 
 export const Routing = () => {
@@ -35,6 +36,7 @@ export const Routing = () => {
         <Route path="tic-tac-toe" element={<PageTicTacToe />} />
         <Route path="todo" element={<PageTodo />} />
         <Route path="tooltip" element={<PageTooltip />} />
+        <Route path="tooltip-anchor-position" element={<PageTooltipAnchorPosition />} />
       </Route>
     </Routes>
   )

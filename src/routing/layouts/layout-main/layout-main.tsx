@@ -64,6 +64,10 @@ export const LayoutMain = () => {
       key: "/tooltip",
       label: <Link to="/tooltip">Tooltip</Link>,
     },
+    {
+      key: "/tooltip-anchor-position",
+      label: <Link to="/tooltip-anchor-position">Tooltip (anchor)</Link>,
+    },
   ]
 
   return (

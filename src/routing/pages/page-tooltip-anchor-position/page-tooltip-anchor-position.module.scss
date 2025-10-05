@@ -1,0 +1,13 @@
+.container {
+  height: 150vh;
+  overflow-y: scroll;
+}
+
+.tooltip-container {
+  width: fit-content;
+  margin: 40px 74px;
+}
+
+p:nth-child(2) {
+  margin-bottom: 14px;
+}
