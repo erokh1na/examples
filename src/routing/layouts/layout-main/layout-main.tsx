@@ -12,17 +12,21 @@ export const LayoutMain = () => {
       key: "/",
       label: <Link to="/">Home</Link>,
     },
-    {
-      key: "/accordion",
-      label: <Link to="/accordion">Accordion</Link>,
-    },
-    {
-      key: "/dir-files",
-      label: <Link to="/dir-files">Directory & files</Link>,
-    },
+    // {
+    //   key: "/accordion",
+    //   label: <Link to="/accordion">Accordion</Link>,
+    // },
+    // {
+    //   key: "/dir-files",
+    //   label: <Link to="/dir-files">Directory & files</Link>,
+    // },
     {
       key: "/drag",
       label: <Link to="/drag">Drag</Link>,
+    },
+    {
+      key: "/drag-and-drop-list",
+      label: <Link to="/drag-and-drop-list">Drag and drop list</Link>,
     },
     {
       key: "/infinity-scroll",
@@ -36,26 +40,26 @@ export const LayoutMain = () => {
       key: "/modal",
       label: <Link to="/modal">Modal</Link>,
     },
-    {
-      key: "/pagination",
-      label: <Link to="/pagination">Pagination</Link>,
-    },
-    {
-      key: "/slider",
-      label: <Link to="/slider">Slider</Link>,
-    },
+    // {
+    //   key: "/pagination",
+    //   label: <Link to="/pagination">Pagination</Link>,
+    // },
+    // {
+    //   key: "/slider",
+    //   label: <Link to="/slider">Slider</Link>,
+    // },
     {
       key: "/tabs",
       label: <Link to="/tabs">Tabs</Link>,
     },
-    {
-      key: "/tic-tac-toe",
-      label: <Link to="/tic-tac-toe">Tic-tac-toe</Link>,
-    },
-    {
-      key: "/todo",
-      label: <Link to="/todo">Todo</Link>,
-    },
+    // {
+    //   key: "/tic-tac-toe",
+    //   label: <Link to="/tic-tac-toe">Tic-tac-toe</Link>,
+    // },
+    // {
+    //   key: "/todo",
+    //   label: <Link to="/todo">Todo</Link>,
+    // },
     {
       key: "/tooltip",
       label: <Link to="/tooltip">Tooltip</Link>,

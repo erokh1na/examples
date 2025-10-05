@@ -4,6 +4,7 @@ import {
   PageAccordion,
   PageDirFiles,
   PageDrag,
+  PageDragAndDropList,
   PageHome,
   PageInfinityScroll,
   PageLazyImage,
@@ -24,6 +25,7 @@ export const Routing = () => {
         <Route path="accordion" element={<PageAccordion />} />
         <Route path="dir-files" element={<PageDirFiles />} />
         <Route path="drag" element={<PageDrag />} />
+        <Route path="drag-and-drop-list" element={<PageDragAndDropList />} />
         <Route path="infinity-scroll" element={<PageInfinityScroll />} />
         <Route path="lazy-image" element={<PageLazyImage />} />
         <Route path="modal" element={<PageModal />} />
