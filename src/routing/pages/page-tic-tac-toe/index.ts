@@ -1,1 +1,1 @@
-export * from "./page-tic-tac-toe.tsx"
+export * from "./page-tic-tac-toe"

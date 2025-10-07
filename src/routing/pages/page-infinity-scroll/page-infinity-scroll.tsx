@@ -19,10 +19,6 @@ export const PageInfinityScroll = () => {
   }
 
   useEffect(() => {
-    console.log("data", fetchData)
-  }, [fetchData.currentPage])
-
-  useEffect(() => {
     if (fetchData.isLoading) return
 
     setFetchData((prev) => ({ ...prev, isLoading: true }))
@@ -44,7 +40,7 @@ export const PageInfinityScroll = () => {
 
   return (
     <div className={style.wrapper}>
-      <InfinityScroll onScroll={setFetchData}>
+      <InfinityScroll onScroll={() => setFetchData}>
         <div className={style.images}>
           {fetchData.images.map((image, index) => (
             <img onLoad={handleImageLoad} key={index} data-src={image.url} src="/images/image.jpg" alt="" />

@@ -1,1 +1,1 @@
-export * from "./page-modal.tsx"
+export * from "./page-modal"

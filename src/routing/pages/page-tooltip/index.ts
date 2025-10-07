@@ -1,1 +1,1 @@
-export * from "./page-tooltip.tsx"
+export * from "./page-tooltip"

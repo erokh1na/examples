@@ -1,1 +1,1 @@
-export * from "./page-form-validator.tsx"
+export * from "./page-form-validator"

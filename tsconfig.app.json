@@ -17,7 +17,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["vitest/globals", "reflect-metadata"],
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
