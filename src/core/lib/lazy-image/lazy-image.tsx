@@ -1,7 +1,9 @@
 import { useEffect, useRef } from "react"
 import { LazyImageProps } from "./types"
 
-export const useLazyImage = ({ target, root, src, onLoad }) => {
+export const useLazyImage = ({ root, src, onLoad }) => {
+  const ref = useRef(null)
+
   const options = {
     root: root,
     rootMargin: "60px",
@@ -23,23 +25,24 @@ export const useLazyImage = ({ target, root, src, onLoad }) => {
   const observer = new IntersectionObserver(callback, options)
 
   useEffect(() => {
-    if (!target) return
+    if (!ref.current) return
 
-    observer.observe(target)
+    observer.observe(ref.current)
 
     return () => observer.disconnect()
-  }, [target])
+  }, [ref.current])
+
+  return {
+    ref,
+  }
 }
 
 export const LazyImage = (props: LazyImageProps) => {
-  const lazyImageRef = useRef(null)
-
-  useLazyImage({
-    target: lazyImageRef.current,
+  const lazyImage = useLazyImage({
     root: props.rootRef.current,
     src: props.src,
     onLoad: props.onLoad,
   })
 
-  return <img src="/images/image.jpg" alt="" ref={lazyImageRef} />
+  return <img src="/images/image.jpg" alt="" ref={lazyImage.ref} />
 }
