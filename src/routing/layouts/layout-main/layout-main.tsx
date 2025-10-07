@@ -29,6 +29,10 @@ export const LayoutMain = () => {
       label: <Link to="/drag-and-drop-list">Drag and drop list</Link>,
     },
     {
+      key: "/form-validator",
+      label: <Link to="/form-validator">Form validator</Link>,
+    },
+    {
       key: "/infinity-scroll",
       label: <Link to="/infinity-scroll">Infinity scroll</Link>,
     },
