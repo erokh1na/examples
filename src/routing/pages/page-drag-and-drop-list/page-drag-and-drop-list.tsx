@@ -1,4 +1,4 @@
-import { DragAndDropList } from "@/core/lib/drag-and-drop-list"
+import { DragAndDropList } from "@/core/lib"
 import styles from "./page-drag-and-drop-list.module.scss"
 
 export const PageDragAndDropList = () => {

@@ -1,4 +1,4 @@
-import { InfinityScroll } from "@/core/lib/infinity-scroll"
+import { InfinityScroll } from "@/core/lib"
 import { useEffect, useState } from "react"
 import style from "./page-infinity-scroll.module.scss"
 

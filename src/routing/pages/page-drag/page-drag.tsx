@@ -1,4 +1,4 @@
-import { Drag } from "@/core/lib/drag"
+import { Drag } from "@/core/lib"
 import { MenuOutlined } from "@ant-design/icons"
 import clsx from "clsx"
 import { useRef } from "react"

@@ -1,4 +1,4 @@
-import { Tabs } from "@/core/lib/tabs"
+import { Tabs } from "@/core/lib"
 import styles from "./page-tabs.module.scss"
 
 export const PageTabs = () => {

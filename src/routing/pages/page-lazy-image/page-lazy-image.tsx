@@ -1,4 +1,4 @@
-import { LazyImage } from "@/core/lib/lazy-image"
+import { LazyImage } from "@/core/lib"
 import clsx from "clsx"
 import { useEffect, useRef, useState } from "react"
 import style from "./page-lazy-image.module.scss"

@@ -1,4 +1,4 @@
-import { Modal, useModal } from "@/core/lib/modal"
+import { Modal, useModal } from "@/core/lib"
 import { Button } from "antd"
 
 export const PageModal = () => {
