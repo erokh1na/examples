@@ -11,6 +11,7 @@ import {
   PageLazyImage,
   PageModal,
   PagePagination,
+  PageSearch,
   PageSlider,
   PageTabs,
   PageTicTacToe,
@@ -33,6 +34,7 @@ export const Routing = () => {
         <Route path="lazy-image" element={<PageLazyImage />} />
         <Route path="modal" element={<PageModal />} />
         <Route path="pagination" element={<PagePagination />} />
+        <Route path="search" element={<PageSearch />} />
         <Route path="slider" element={<PageSlider />} />
         <Route path="tabs" element={<PageTabs />} />
         <Route path="tic-tac-toe" element={<PageTicTacToe />} />

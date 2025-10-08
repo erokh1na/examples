@@ -48,6 +48,10 @@ export const LayoutMain = () => {
     //   key: "/pagination",
     //   label: <Link to="/pagination">Pagination</Link>,
     // },
+    {
+      key: "/search",
+      label: <Link to="/search">Search</Link>,
+    },
     // {
     //   key: "/slider",
     //   label: <Link to="/slider">Slider</Link>,
