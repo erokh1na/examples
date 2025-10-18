@@ -18,6 +18,7 @@ import {
   PageTodo,
   PageTooltip,
   PageTooltipAnchorPosition,
+  PageVirtualizedList,
 } from "./pages"
 
 export const Routing = () => {
@@ -41,6 +42,7 @@ export const Routing = () => {
         <Route path="todo" element={<PageTodo />} />
         <Route path="tooltip" element={<PageTooltip />} />
         <Route path="tooltip-anchor-position" element={<PageTooltipAnchorPosition />} />
+        <Route path="virtualized-list" element={<PageVirtualizedList />} />
       </Route>
     </Routes>
   )

@@ -76,6 +76,10 @@ export const LayoutMain = () => {
       key: "/tooltip-anchor-position",
       label: <Link to="/tooltip-anchor-position">Tooltip (anchor)</Link>,
     },
+    {
+      key: "/virtualized-list",
+      label: <Link to="/virtualized-list">Virtualized list</Link>,
+    },
   ]
 
   return (
