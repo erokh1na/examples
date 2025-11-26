@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router"
 import { LayoutMain } from "./layouts"
 import {
   PageAccordion,
+  PageDatePicker,
   PageDirFiles,
   PageDrag,
   PageDragAndDropList,
@@ -27,6 +28,7 @@ export const Routing = () => {
       <Route element={<LayoutMain />}>
         <Route path="/" index element={<PageHome />} />
         <Route path="accordion" element={<PageAccordion />} />
+        <Route path="date-picker" element={<PageDatePicker />} />
         <Route path="dir-files" element={<PageDirFiles />} />
         <Route path="drag" element={<PageDrag />} />
         <Route path="drag-and-drop-list" element={<PageDragAndDropList />} />

@@ -1,23 +1,13 @@
-.anchor {
-  width: fit-content;
-  anchor-name: --anchor;
+.main-container {
+  position: relative;
+
+  overflow-y: scroll;
 }
 
-.tooltip {
-  width: 200px;
-  margin: 0;
+.scroll-container {
+  position: absolute;
+  top: 0;
+  left: 0;
 
-  padding: 8px 16px;
-
-  text-align: center;
-
-  background: white;
-  border: 1px solid lightgray;
-
-  border-radius: 4px;
-  inset: auto;
-  position-anchor: --anchor;
-  position-area: block-start;
-  position-try-fallbacks: flip-block flip-inline;
-  margin-block: 4px;
+  width: 100%;
 }

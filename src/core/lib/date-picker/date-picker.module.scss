@@ -1,0 +1,92 @@
+.date-picker {
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-wrapper {
+  display: flex;
+  margin-bottom: 8px;
+
+  background-color: white;
+
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding-inline: 8px;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  padding-block: 12px;
+
+  font-size: 14px;
+
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.panel {
+  width: 100%;
+  height: 100%;
+
+  background-color: white;
+
+  border: 1px solid lightgray;
+
+  border-radius: 4px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 10px;
+}
+
+.week-day {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.date {
+  margin: 2px;
+  padding: 8px;
+
+  color: darkgray;
+
+  border-radius: 20px;
+
+  transition: background-color 0.25s ease, color 0.25s ease;
+
+  &:hover {
+    background-color: lightgray;
+  }
+}
+
+.date-current-month {
+  color: black;
+}
+
+.date-interval {
+  background-color: lightgray;
+}
+
+.date-today {
+  color: #dc2626;
+}
+
+.date-active {
+  color: white;
+
+  background-color: gray;
+}
+

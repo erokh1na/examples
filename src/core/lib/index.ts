@@ -1,4 +1,5 @@
 export * from "./accordion"
+export * from "./date-picker"
 export * from "./dir-files"
 export * from "./drag"
 export * from "./drag-and-drop-list"

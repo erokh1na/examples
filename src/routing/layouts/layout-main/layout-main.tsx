@@ -21,6 +21,10 @@ export const LayoutMain = () => {
     //   label: <Link to="/dir-files">Directory & files</Link>,
     // },
     {
+      key: "/date-picker",
+      label: <Link to="/date-picker">Date picker</Link>,
+    },
+    {
       key: "/drag",
       label: <Link to="/drag">Drag</Link>,
     },
@@ -76,10 +80,10 @@ export const LayoutMain = () => {
       key: "/tooltip-anchor-position",
       label: <Link to="/tooltip-anchor-position">Tooltip (anchor)</Link>,
     },
-    {
-      key: "/virtualized-list",
-      label: <Link to="/virtualized-list">Virtualized list</Link>,
-    },
+    // {
+    //   key: "/virtualized-list",
+    //   label: <Link to="/virtualized-list">Virtualized list</Link>,
+    // },
   ]
 
   return (
