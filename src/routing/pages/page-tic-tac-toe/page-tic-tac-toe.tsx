@@ -1,7 +1,5 @@
+import { TicTacToe } from "@/core/lib"
+
 export const PageTicTacToe = () => {
-  return (
-    <>
-      <p>put thms here</p>
-    </>
-  )
+  return <TicTacToe />
 }

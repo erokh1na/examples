@@ -64,10 +64,10 @@ export const LayoutMain = () => {
       key: "/tabs",
       label: <Link to="/tabs">Tabs</Link>,
     },
-    // {
-    //   key: "/tic-tac-toe",
-    //   label: <Link to="/tic-tac-toe">Tic-tac-toe</Link>,
-    // },
+    {
+      key: "/tic-tac-toe",
+      label: <Link to="/tic-tac-toe">Tic-tac-toe</Link>,
+    },
     // {
     //   key: "/todo",
     //   label: <Link to="/todo">Todo</Link>,
